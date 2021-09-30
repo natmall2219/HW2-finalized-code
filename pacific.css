@@ -1,0 +1,112 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+body {
+	background-image: url(ptrbackground.jpg);   
+	display: block; 
+	overflow: hidden; /*Content is cut off when the page is made smaller, instead of shrunken. */
+	color: gray; 
+    font-family: Arial, Helvetica, sans-serif
+}
+header{
+	background-image: url(sunset.jpg); 
+	background-repeat: no-repeat; 
+	background-position: right;
+	background-color: #000032;
+}
+nav {
+	width: 200px;
+	margin: auto; 
+	float: left; 
+}
+nav ul { 
+	font-size: 1.2em;
+	font-family: Arial, Helvetica, sans-serif; 
+	font-weight: bold;  
+}
+nav a:link {
+	text-decoration: none; 
+	color: blue;
+}
+nav a:visited {
+	color: midnightblue;
+	/*The links turn this color once they have been clicked on.*/
+}
+/*styles what the links look like when you hover over them with your mouse. */
+nav a:hover {
+	color: white;
+} 
+h1 {
+	margin-bottom: 0;
+	padding: 10px; 
+	color: white;
+	font-family: Georgia, "Times New Roman", serif;
+}
+h2 {
+	padding: 10px;
+	font-family: Georgia, "Times New Roman", serif;
+}
+h2 {
+	color: steelblue; 
+}
+dt {
+	color: #000033;
+}
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+}
+#content {
+	text-align: left; 
+	padding-left: 270px; 
+}
+#contact {
+	font-size: 90%;
+}
+span {
+	text-align: center; 
+}
+#wrapper {
+	min-width: 600px;
+	margin: auto; 
+	display: block; 
+	max-width: 80%;
+	background-color: #ADD8E6; 
+}
+ul {
+	list-style-type: none; 
+}
+#content { 
+	background-color: white;  
+	margin-left: 200px; 
+	padding-top: 1px;
+	padding-right: 0px;
+	padding-bottom: 0px; 
+	padding-left: 30px;
+	color: gray; 
+
+}
+#content p {
+	padding-right: 50px; 
+}
+#content li::before {
+	content: url(marker.gif);
+    padding-right: 5px;
+}
+#wrapper footer {
+	margin-left: 200px; 
+	font-style: italic; 
+	height: auto; 
+	background-color: white;
+	font-size: 12px;
+	padding: 15px;  
+
+}
+.resort { 
+	font-weight: bold; 
+	font-size: 20px; 
+	color: steelblue;
+}
+img {
+    float: left;
+    padding-right: 50px;
+}
